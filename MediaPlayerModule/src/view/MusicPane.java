@@ -142,7 +142,9 @@ public class MusicPane  {
 	 * 主分支merge完之后可能要写点什么才能commit
 	 * 现在要在这个分支上去写点功能,把这个分支拉下来
 	 */
-
+	/*
+	主分支再添加一些功能并提交
+	 */
 
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
