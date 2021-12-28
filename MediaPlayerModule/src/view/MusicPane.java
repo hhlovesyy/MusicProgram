@@ -137,6 +137,9 @@ public class MusicPane  {
 	/**
 	 * 目前急需要解决的问题是如何将结果显示在窗体程序当中,即前端和后端要整合起来
 	 */
+	/**
+	 * 在这里测试一下分支的功能,方便后续前后端整合
+	 */
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
     private Label lab_mygroup,lab_spe,lab_myalbum;
