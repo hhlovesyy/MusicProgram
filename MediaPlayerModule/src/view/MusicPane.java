@@ -131,6 +131,7 @@ public class MusicPane  {
 
 	/**
 	 * 这里要加入一些新的字段等信息
+	 或许要使用到静态变量
 	 */
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
