@@ -128,8 +128,11 @@ public class MusicPane  {
     private ArrayList<BigDecimal> lrcList = new ArrayList<>();
     //26.当前歌词的索引
     private int currentLrcIndex;
-    
-    //个人信息
+
+	/**
+	 * 这里解下咯哎要加速按
+	 */
+	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
     private Label lab_mygroup,lab_spe,lab_myalbum;
     
