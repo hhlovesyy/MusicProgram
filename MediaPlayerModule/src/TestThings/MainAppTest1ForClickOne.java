@@ -231,7 +231,7 @@ public class MainAppTest1ForClickOne extends Application {
         if (this.currentPlayBean == null) {
             return;
         }
-
+        System.out.println("hello world");
         //初始化lrcVBox
         this.lrcVBox.getChildren().clear();
         this.lrcVBox.setLayoutY(50 * 2 - 10);
