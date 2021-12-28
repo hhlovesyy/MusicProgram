@@ -139,7 +139,10 @@ public class MusicPane  {
 	 */
 	/**
 	 * 在这里测试一下分支的功能,方便后续前后端整合
+	 * 主分支merge完之后可能要写点什么才能commit
 	 */
+
+
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
     private Label lab_mygroup,lab_spe,lab_myalbum;
