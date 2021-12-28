@@ -1,0 +1,51 @@
+/*以下是横滑动条的样式设置*/
+/*拇指*/
+.slider .thumb {
+  -fx-pref-height: 15;
+  -fx-min-height: 15;
+  -fx-max-height: 15;
+  -fx-pref-width: 15;
+  -fx-min-width: 15;
+  -fx-max-width: 15;
+  -fx-background-color: white;
+  -fx-background-image:  url("/img/topandbottom/progress.png");
+  -fx-background-size: 15,15;/*背景图片尺寸*/
+  -fx-background-insets: 0, 1, 2;
+  -fx-background-radius: 2.0em;/*四角半径--圆角效果*/
+  -fx-padding: 0.583333em;/*内部上、下、左、右填充*/
+}
+/*拇指：鼠标移入移出时，变亮*/
+.slider .thumb:focused,
+.slider .thumb:hover{
+	-fx-effect: dropshadow(three-pass-box , white, 20, 0.0 , 0, 0);
+	-fx-background-radius: 1.0em;
+}
+/*轨道*/
+.slider .track {
+	-fx-background-color:null;
+	-fx-background-insets: 1 0 -1 0, 0, 1;
+	-fx-background-radius: 2.5, 2.5, 1.5;
+	-fx-padding: 0.208333em;
+}
+
+/*以下是拖动条背后的进度条设置*/
+.progress-bar > .bar{
+  -fx-pref-height: 10;
+  -fx-min-height: 10;
+  -fx-max-height: 10;
+}
+.progress-bar:determinate > .bar {
+	-fx-background-color: red;
+}
+
+.progress-bar:indeterminate > .bar {
+    -fx-background-color: #408080;
+}
+
+.progress-bar > .track{
+	-fx-pref-height: 10;
+	-fx-min-height: 10;
+	-fx-max-height: 10;
+	-fx-border-width: 0 0 0 0;
+	-fx-background-color: #606060;
+}

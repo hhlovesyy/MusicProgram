@@ -1,0 +1,52 @@
+
+/*所有table的设置*/
+.table-view{
+    -fx-background-color: #1b1d20;
+}
+/*列头*/
+.table-view .column-header{
+    -fx-border-color:null;
+    -fx-pref-height: 35;
+	-fx-background-color: black;
+}
+/*列头文字*/
+.table-view .column-header-background .label{
+    -fx-text-fill: #cccccc;
+    -fx-alignment: center-left;
+}
+
+
+/*单元格文字颜色、边框颜色*/
+.table-view .table-cell{
+    -fx-text-fill: #6b6b6b;
+    -fx-border-color:null;
+}
+/*表格行样式*/
+.table-row-cell{
+    -fx-background-color: black;
+    -fx-cell-size: 30px;
+    -fx-alignment: center-left;
+}
+/*选中行的背景颜色*/
+ .table-row-cell:selected{
+    -fx-background-color: #373737;
+}
+/*滚动条*/
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background{
+    -fx-background-color: transparent;
+}
+
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-opacity:0;
+
+}
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+

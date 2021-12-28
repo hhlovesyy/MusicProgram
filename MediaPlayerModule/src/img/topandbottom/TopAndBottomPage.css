@@ -1,0 +1,219 @@
+
+.buttonPlay{
+	-fx-background-image: url("PlayDark.png");
+}
+
+.buttonPlay:hover{
+	-fx-background-image: url("Play.png");
+}
+
+
+.buttonPause{
+	-fx-background-image: url("PauseDark.png")
+}
+
+.buttonPause:hover{
+	-fx-background-image: url("Pause.png")
+}
+
+#Label_FXName{
+	/*-fx-background-image: url("title.png")*/
+}
+
+#Label_FXName:hover{
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+
+#Button_last{
+	-fx-background-image: url("LastDark.png")
+}
+
+#Button_last:hover{
+	-fx-background-image: url("Last.png")
+}
+
+#Button_next{
+	-fx-background-image: url("NextDark.png")
+}
+
+#Button_next:hover{
+	-fx-background-image: url("Next.png")
+}
+
+#Button_minimize{
+	-fx-background-image: url("MinmizeDark.png")
+}
+#Button_minimize:hover{
+	-fx-background-image: url("Minmize.png")
+}
+
+#Button_close{
+	-fx-background-image: url("CloseDark.png")
+}
+#Button_close:hover{
+	-fx-background-image: url("Close.png")
+}
+
+
+.Button_changeVolumn{
+	-fx-background-image: url("VolumnDark.png")
+}
+
+.Button_changeVolumn:hover{
+	-fx-background-image: url("Volumn.png")
+}
+
+
+.Button_changeVolumn_zero{
+	-fx-background-image: url("VolumnZeroDark.png")
+}
+
+.Button_changeVolumn_zero:hover{
+	-fx-background-image: url("VolumnZero.png")
+}
+
+
+.buttonRepeatInOne{
+	-fx-background-image: url("RepeatInOneDark.png")
+}
+
+.buttonRepeatInOne:hover{
+	-fx-background-image: url("RepeatInOne.png")
+}
+
+
+.buttonRepeat{
+	-fx-background-image: url("RepeatDark.png")
+}
+
+.buttonRepeat:hover{
+	-fx-background-image: url("Repeat.png")
+}
+
+
+.buttonOrderPlay{
+	-fx-background-image: url("OrderPlayDark.png")
+}
+
+.buttonOrderPlay:hover{
+	-fx-background-image: url("OrderPlay.png")
+}
+
+
+.buttonRandomPlay{
+	-fx-background-image: url("RandomPlayDark.png")
+}
+
+.buttonRandomPlay:hover{
+	-fx-background-image: url("RandomPlay.png")
+}
+
+
+.lightLabel{
+	-fx-text-fill: white;
+	-fx-background-color : null;
+}
+
+#Button_search{
+	-fx-background-image: url("SearchDark.png")
+}
+
+#Button_search:hover{
+	-fx-background-image: url("Search.png")
+}
+
+#Button_setting{
+	-fx-background-image: url("SettingDark.png")
+}
+
+#Button_setting:hover{
+	-fx-background-image: url("Setting.png")
+}
+
+#Button_back{
+	-fx-background-image: url("BackDark.png")
+}
+
+#Button_back:hover{
+	-fx-background-image: url("Back.png")
+}
+
+#Button_forward{
+	-fx-background-image: url("ForwardDark.png")
+}
+
+#Button_forward:hover{
+	-fx-background-image: url("Forward.png")
+}
+
+#Button_playList{
+	-fx-background-image: url("playListDark.png")
+}
+
+#Button_playList:hover{
+	-fx-background-image: url("playList.png")
+}
+
+#AnchorPane_bottom{
+	-fx-background-color: #1b1d20;
+	-fx-border-width: 2 0 0 0;
+	-fx-border-color: #bfbfbf;
+}
+
+#AnchorPane_top{
+	-fx-background-color: #1b1d20;
+	-fx-border-color: linear-gradient( #800000 0%, red 100%);
+	-fx-border-width: 0 0 3 0;
+}
+
+#BorderPane_mainPage{
+	-fx-background-color: #1b1d20;
+}
+
+
+.slider .thumb {
+    -fx-pref-height: 20;
+	-fx-min-height: 20;
+	-fx-max-height: 20;
+	-fx-pref-width: 20;
+	-fx-min-width: 20;
+	-fx-max-width: 20;
+	-fx-background-color: white;
+    -fx-background-image:  url("progress.png");
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 2.0em; /* makes sure this remains circular */
+    -fx-padding: 0.583333em;  /* 7 */
+}
+.slider .thumb:focused , .slider .thumb:hover{
+	-fx-effect: dropshadow(three-pass-box , white, 20, 0.0 , 0, 0);
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+}
+
+.slider .track {
+    -fx-background-color:null;  /* Hide the track */
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+
+.progress-bar > .bar{
+	-fx-pref-height: 15;
+	-fx-min-height: 15;
+	-fx-max-height: 15;
+}
+.progress-bar:determinate > .bar {
+    -fx-background-color: red;
+}
+
+.progress-bar:indeterminate > .bar {
+    -fx-background-color: #408080;
+}
+
+.progress-bar > .track{
+	-fx-pref-height: 15;
+	-fx-min-height: 15;
+	-fx-max-height: 15;
+	-fx-border-width: 0 0 0 0;
+	-fx-background-color: #606060;
+}

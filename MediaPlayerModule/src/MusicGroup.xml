@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groupList> 
+  <group name="刘德华" createDate="2019-02-10 00:09:01"> 
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-爱你一万年.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-冰雨.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-孤星泪.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-天意.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-谢谢你的爱.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound> 
+  </group>  
+  <group name="刘德华经典" createDate="2019-02-10 00:09:01"> 
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-爱你一万年.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-冰雨.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-孤星泪.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-天意.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\刘德华-谢谢你的爱.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\周华健-孤枕难眠.mp3</filePath>  
+      <addDate>2019-02-11 02:03:55</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\周华健-怕黑.mp3</filePath>  
+      <addDate>2019-02-11 02:03:55</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\周华健-其实不想走.mp3</filePath>  
+      <addDate>2019-02-11 02:03:55</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\周华健-若不是因为你.mp3</filePath>  
+      <addDate>2019-02-11 02:03:55</addDate> 
+    </sound> 
+  </group>  
+  <group name="z" addDate="2021-12-23 19:25:40"> 
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\怪可爱的 .mp3</filePath>  
+      <addDate>2021-12-23 21:41:26</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>C:\Users\Administrator\Music\Dynamite.mp3</filePath>  
+      <addDate>2021-12-27 00:03:33</addDate> 
+    </sound> 
+  </group>  
+  <group name="j" addDate="2021-12-23 21:55:17"></group>  
+  <group name="g" addDate="2021-12-27 18:41:34"></group>  
+  <group name="不" addDate="2021-12-27 22:15:13"></group>
+</groupList>

@@ -1,0 +1,22 @@
+.list-cell { 
+    -fx-background-color: transparent;
+    -fx-padding: 5 ; 
+} 
+
+.list-cell .label { 
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px; 
+    -fx-padding: 10px ; 
+    -fx-text-fill: white;
+
+    -fx-pref-height: 50px;
+    -fx-font-size: 18px;
+} 
+.list-cell:empty .label { 
+    -fx-background-color: transparent; 
+    -fx-border-width: 0px; 
+} 
+.list-cell:selected .label { 
+-fx-background-color: rgba(255,255,255,0.2); 
+    -fx-background-radius: 7px; 
+} 
