@@ -130,7 +130,7 @@ public class MusicPane  {
     private int currentLrcIndex;
 
 	/**
-	 * 这里解下咯哎要加速按
+	 * 这里要加入一些新的字段等信息
 	 */
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
