@@ -132,6 +132,10 @@ public class MusicPane  {
 	/**
 	 * 这里要加入一些新的字段等信息
 	 或许要使用到静态变量
+	 * some information
+	 */
+	/**
+	 * 目前急需要解决的问题是如何将结果显示在窗体程序当中,即前端和后端要整合起来
 	 */
 	//个人信息
     private Label lab_creategroup,lab_playg,lab_addg,lab_delg,lab_createalbum;
